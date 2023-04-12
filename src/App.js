@@ -26,7 +26,7 @@ const App = () => {
 
   const checkContact = (newContact) => {
     const isInBase = contacts.some(
-      (contact) => contact.name === newContact.name
+      (contact) => contact.name.toLowerCase() === newContact.name.toLowerCase()
     );
     return isInBase;
   };
