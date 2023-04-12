@@ -38,7 +38,7 @@ const App = () => {
       actualContacts.push(newContact);
       setContacts([...actualContacts]);
     } else {
-      alert(`${newContact.name} is alerdy in contacts`);
+      alert(`${newContact.name} is already in contacts`);
     }
   };
 
